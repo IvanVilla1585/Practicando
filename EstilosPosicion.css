@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#header-container{
+	position: fixed;
+	width: 100%;
+	height: 180px;
+	background-color: red;
+	float: center;
+
+}
+.cabecera{
+	width: 800px;
+	border: 2px solid;
+	margin-left: 150px;
+}
+
+#titulo{
+	
+}
