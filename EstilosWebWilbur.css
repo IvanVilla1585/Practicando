@@ -1,0 +1,44 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	text-align: center;
+	background: #8FBC8F;
+}
+
+#Estructura {
+	width: 960px;
+	margin: 15px auto;
+	text-align: left;
+}
+
+#Titulo {
+	font: bold 100px MiNuevaFuente, sans-serif;
+	text-shadow: rgb(0,0,150) 0px 0px 0px;
+	text-align: center;
+} 
+
+@font-face { 
+	font-family: 'MiNuevaFuente';
+	src: url('Globus');
+}
+
+#Menu {
+	background:#00FF00;
+	padding: 5px 15px;
+	border-radius: 10px ; 
+	text-align: center;
+}
+
+ul li:hover{
+	color: white;
+}
+
+#Menu ul li {
+	margin-left: 80px;
+	display: inline-block;
+	list-style: none;
+	padding: 0px 20px;
+}
